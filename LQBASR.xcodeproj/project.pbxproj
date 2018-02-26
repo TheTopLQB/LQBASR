@@ -15,6 +15,12 @@
 		9F51033C20439E9400505447 /* LQBASRUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F51033B20439E9400505447 /* LQBASRUITests.m */; };
 		9F51034C20439FF500505447 /* LQBRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F51034A20439FF500505447 /* LQBRootViewController.m */; };
 		9F51034D20439FF500505447 /* LQBRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F51034B20439FF500505447 /* LQBRootViewController.xib */; };
+		9F5103512043AAE600505447 /* LQBBDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F51034F2043AAE600505447 /* LQBBDViewController.m */; };
+		9F5103522043AAE600505447 /* LQBBDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F5103502043AAE600505447 /* LQBBDViewController.xib */; };
+		9F5103562043AB0000505447 /* LQBXFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5103542043AB0000505447 /* LQBXFViewController.m */; };
+		9F5103572043AB0000505447 /* LQBXFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F5103552043AB0000505447 /* LQBXFViewController.xib */; };
+		9F51035B2043AB3900505447 /* LQBAppleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5103592043AB3900505447 /* LQBAppleViewController.m */; };
+		9F51035C2043AB3900505447 /* LQBAppleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F51035A2043AB3900505447 /* LQBAppleViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,15 @@
 		9F51034920439FF500505447 /* LQBRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQBRootViewController.h; sourceTree = "<group>"; };
 		9F51034A20439FF500505447 /* LQBRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQBRootViewController.m; sourceTree = "<group>"; };
 		9F51034B20439FF500505447 /* LQBRootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LQBRootViewController.xib; sourceTree = "<group>"; };
+		9F51034E2043AAE600505447 /* LQBBDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQBBDViewController.h; sourceTree = "<group>"; };
+		9F51034F2043AAE600505447 /* LQBBDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQBBDViewController.m; sourceTree = "<group>"; };
+		9F5103502043AAE600505447 /* LQBBDViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LQBBDViewController.xib; sourceTree = "<group>"; };
+		9F5103532043AB0000505447 /* LQBXFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQBXFViewController.h; sourceTree = "<group>"; };
+		9F5103542043AB0000505447 /* LQBXFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQBXFViewController.m; sourceTree = "<group>"; };
+		9F5103552043AB0000505447 /* LQBXFViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LQBXFViewController.xib; sourceTree = "<group>"; };
+		9F5103582043AB3900505447 /* LQBAppleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQBAppleViewController.h; sourceTree = "<group>"; };
+		9F5103592043AB3900505447 /* LQBAppleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQBAppleViewController.m; sourceTree = "<group>"; };
+		9F51035A2043AB3900505447 /* LQBAppleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LQBAppleViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +121,15 @@
 				9F51034920439FF500505447 /* LQBRootViewController.h */,
 				9F51034A20439FF500505447 /* LQBRootViewController.m */,
 				9F51034B20439FF500505447 /* LQBRootViewController.xib */,
+				9F51034E2043AAE600505447 /* LQBBDViewController.h */,
+				9F51034F2043AAE600505447 /* LQBBDViewController.m */,
+				9F5103502043AAE600505447 /* LQBBDViewController.xib */,
+				9F5103532043AB0000505447 /* LQBXFViewController.h */,
+				9F5103542043AB0000505447 /* LQBXFViewController.m */,
+				9F5103552043AB0000505447 /* LQBXFViewController.xib */,
+				9F5103582043AB3900505447 /* LQBAppleViewController.h */,
+				9F5103592043AB3900505447 /* LQBAppleViewController.m */,
+				9F51035A2043AB3900505447 /* LQBAppleViewController.xib */,
 				9F51032020439E9400505447 /* Assets.xcassets */,
 				9F51032220439E9400505447 /* LaunchScreen.storyboard */,
 				9F51032520439E9400505447 /* Info.plist */,
@@ -238,6 +262,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F5103572043AB0000505447 /* LQBXFViewController.xib in Resources */,
+				9F51035C2043AB3900505447 /* LQBAppleViewController.xib in Resources */,
+				9F5103522043AAE600505447 /* LQBBDViewController.xib in Resources */,
 				9F51034D20439FF500505447 /* LQBRootViewController.xib in Resources */,
 				9F51032420439E9400505447 /* LaunchScreen.storyboard in Resources */,
 				9F51032120439E9400505447 /* Assets.xcassets in Resources */,
@@ -265,6 +292,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F5103562043AB0000505447 /* LQBXFViewController.m in Sources */,
+				9F51035B2043AB3900505447 /* LQBAppleViewController.m in Sources */,
+				9F5103512043AAE600505447 /* LQBBDViewController.m in Sources */,
 				9F51032720439E9400505447 /* main.m in Sources */,
 				9F51034C20439FF500505447 /* LQBRootViewController.m in Sources */,
 				9F51031920439E9400505447 /* AppDelegate.m in Sources */,
