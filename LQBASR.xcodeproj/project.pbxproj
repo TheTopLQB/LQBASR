@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		9F51031920439E9400505447 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F51031820439E9400505447 /* AppDelegate.m */; };
-		9F51031C20439E9400505447 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F51031B20439E9400505447 /* ViewController.m */; };
-		9F51031F20439E9400505447 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F51031D20439E9400505447 /* Main.storyboard */; };
 		9F51032120439E9400505447 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F51032020439E9400505447 /* Assets.xcassets */; };
 		9F51032420439E9400505447 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F51032220439E9400505447 /* LaunchScreen.storyboard */; };
 		9F51032720439E9400505447 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F51032620439E9400505447 /* main.m */; };
 		9F51033120439E9400505447 /* LQBASRTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F51033020439E9400505447 /* LQBASRTests.m */; };
 		9F51033C20439E9400505447 /* LQBASRUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F51033B20439E9400505447 /* LQBASRUITests.m */; };
+		9F51034C20439FF500505447 /* LQBRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F51034A20439FF500505447 /* LQBRootViewController.m */; };
+		9F51034D20439FF500505447 /* LQBRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F51034B20439FF500505447 /* LQBRootViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +38,6 @@
 		9F51031420439E9400505447 /* LQBASR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LQBASR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F51031720439E9400505447 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F51031820439E9400505447 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9F51031A20439E9400505447 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9F51031B20439E9400505447 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9F51031E20439E9400505447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F51032020439E9400505447 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F51032320439E9400505447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F51032520439E9400505447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +48,9 @@
 		9F51033720439E9400505447 /* LQBASRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LQBASRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F51033B20439E9400505447 /* LQBASRUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQBASRUITests.m; sourceTree = "<group>"; };
 		9F51033D20439E9400505447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F51034920439FF500505447 /* LQBRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQBRootViewController.h; sourceTree = "<group>"; };
+		9F51034A20439FF500505447 /* LQBRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQBRootViewController.m; sourceTree = "<group>"; };
+		9F51034B20439FF500505447 /* LQBRootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LQBRootViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +103,9 @@
 			children = (
 				9F51031720439E9400505447 /* AppDelegate.h */,
 				9F51031820439E9400505447 /* AppDelegate.m */,
-				9F51031A20439E9400505447 /* ViewController.h */,
-				9F51031B20439E9400505447 /* ViewController.m */,
-				9F51031D20439E9400505447 /* Main.storyboard */,
+				9F51034920439FF500505447 /* LQBRootViewController.h */,
+				9F51034A20439FF500505447 /* LQBRootViewController.m */,
+				9F51034B20439FF500505447 /* LQBRootViewController.xib */,
 				9F51032020439E9400505447 /* Assets.xcassets */,
 				9F51032220439E9400505447 /* LaunchScreen.storyboard */,
 				9F51032520439E9400505447 /* Info.plist */,
@@ -238,9 +238,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F51034D20439FF500505447 /* LQBRootViewController.xib in Resources */,
 				9F51032420439E9400505447 /* LaunchScreen.storyboard in Resources */,
 				9F51032120439E9400505447 /* Assets.xcassets in Resources */,
-				9F51031F20439E9400505447 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,8 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F51031C20439E9400505447 /* ViewController.m in Sources */,
 				9F51032720439E9400505447 /* main.m in Sources */,
+				9F51034C20439FF500505447 /* LQBRootViewController.m in Sources */,
 				9F51031920439E9400505447 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,14 +303,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9F51031D20439E9400505447 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9F51031E20439E9400505447 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9F51032220439E9400505447 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,6 +425,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VTLK8P2YSD;
 				INFOPLIST_FILE = LQBASR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LQB.LQBASR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,6 +440,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VTLK8P2YSD;
 				INFOPLIST_FILE = LQBASR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LQB.LQBASR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
