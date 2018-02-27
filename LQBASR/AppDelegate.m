@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "LQBRootViewController.h"
+#import "IFlyMSC/IFlyMSC.h"
 
 @interface AppDelegate ()
 
@@ -24,6 +25,22 @@
     LQBRootViewController * rootVC = [[LQBRootViewController alloc] init];
     UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:rootVC];
     self.window.rootViewController = nav;
+    
+    
+    //Set log level
+    [IFlySetting setLogFile:LVL_ALL];
+    
+    //Set whether to output log messages in Xcode console
+    [IFlySetting showLogcat:YES];
+    
+    //Set the local storage path of SDK
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES);
+    NSString *cachePath = [paths objectAtIndex:0];
+    [IFlySetting setLogFilePath:cachePath];
+    
+    NSString *initString = @"appid=5a8fc2cc";
+    [IFlySpeechUtility createUtility:initString];
+    
     return YES;
 }
 
